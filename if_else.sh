@@ -1,6 +1,5 @@
 #!/bin/bash
 # if else structure
-
 # if condition exit with code 0, command1, else command2
 if  condition 
 then
