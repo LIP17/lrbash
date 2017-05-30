@@ -4,11 +4,16 @@
 # will all be treated as seperator
 # and "NEW YORK" will be printed seperately
 file="states"
+
+IFS.OLD=$IFS
+
 IFS=$’\n’
 for state in `cat $file`
 do
 echo "Visit beautiful $state"
 done
+# reset IFS after use
+IFS=$IFS.OLD
 
 # expected output
 # Visit beautiful Alabama
@@ -23,3 +28,6 @@ done
 # Visit beautiful New York
 # Visit beautiful New Hampshire
 # Visit beautiful North Carolina
+
+
+

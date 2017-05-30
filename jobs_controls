@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#list all jobs with process id and job 
+
+jobs -l
+
+# start stopped job in bg
+bg $jobnumber
+
+# start stopped jobs in fg
+fg $jobnumber
+
