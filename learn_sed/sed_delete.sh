@@ -16,7 +16,7 @@ sed '/pattern/d' inputfile
 # lines between start pattern and end pattern
 sed '/pattern_start/,/pattern_end/d' inputfile
 
-:' notice the once sed meet the start_pattern, it will start deleting
+:' notice that once sed meet the start_pattern, it will start deleting
     if input is 
         pattern_start
         line1

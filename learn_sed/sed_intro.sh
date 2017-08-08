@@ -14,7 +14,7 @@
 # sed option
 # -e script/command
 # -f file
-# -n donot produce output for each command, but wait for the print command
+# -n do not produce output for each command, but wait for the print command
 
 # sed with simple sed command, replace "Test" with "Test Finished"
 echo "Test" | sed 's/Test/Test Finished/'

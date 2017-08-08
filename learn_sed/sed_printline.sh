@@ -6,7 +6,7 @@
     l: list a line
 '
 
-# only print the line wiht pattern
+# only print the line with pattern
 sed -n '/pattern/p' inputfile
 
 # print line within range
